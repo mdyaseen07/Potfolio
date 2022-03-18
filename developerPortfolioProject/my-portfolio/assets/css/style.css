@@ -218,6 +218,8 @@
   .project-pic {
     width: 65%;
     height: 60%;
+    object-fit: cover;
+    border-radius: 10%;
   }
   
   .projects-container {
@@ -245,6 +247,7 @@
     text-align: center;
     width: 21.875rem;
     padding: 1rem;
+    
   }
 
   .project-container p {
@@ -260,7 +263,7 @@
   }
   
   .project-card {
-    background-color: #fff;
+    background-color: #e6dadd;
     border-radius: 11px;
     box-shadow: 0 3px 10px var(--primary-shadow);
     padding: 20px;
@@ -339,6 +342,7 @@
     width: 2rem;
     height: 2rem;
     border-radius: 25%;
+    background-color: #fff;
   }
 
   footer {
