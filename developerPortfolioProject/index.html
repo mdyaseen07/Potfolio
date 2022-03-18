@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CSS Styles -->
+  <link rel="stylesheet" href="./my-portfolio/assets/css/style.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./my-portfolio/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./my-portfolio/assets/icons/favicon-32x32.png">
+  <link rel="manifest" href="./my-portfolio/assets/icons/site.webmanifest">
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Mohammad Yaseen | Portfolio </title>
+  <link rel="icon" type="image/x-icon" href="./my-portfolio/assets/icons/favicon.ico">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <h1>MOHAMMAD YASEEN</h1>
+    <ul class="navigation">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+  </nav>
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <img src="./my-portfolio/assets/images/photo.jpg" alt="jane-doe" loading="lazy" class="hero-img" width="400px"
+      height="430px" />
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-title">About Me</h2>
+      <p class="bio-text">
+        I am MOHAMMAD YASEEN graduate of Electrical and Electronics Engineering, previously worked at TCS as Assistant Sytem Engineer.<span class="span">Recently I got an opportunity to skill-up in Java Full-Stack Development at Rooman Technologies Banglore in Collaboration with Generation India were technologies related to Front-end and Back-end was learnt in a duration of 16 weeks<span>
+      </p>
+    </div>
+  </section>
+  <!-- More about -->
+  <section class="more-about">
+    <h2>Summary</h2>
+    <p>A newly graduate software engineer from Generation India,Generation India is a youth training program designed to prepare participants for a carrier in IT industry.
+      <span id="dots">...</span><span id="more">
+       I am looking for an Entry-Level opportunity as Junior Java Full-Stack developer were I can apply my skills and knowledge for better 
+       carrier growth and opportunities.
+        </span>
+    </p>
+    <button class="btn btn-outline btn-primary" onclick="myFunction()" id="myBtn">Read More</button>
+  </section>
+  <!-- Skills section -->
+  <section class="skills" id="skills">
+    <h2 class="skill-header">My Top Skills</h2>
+
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img src="./my-portfolio/assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="./my-portfolio/assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="./my-portfolio/assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="./my-portfolio/assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card" />
+      </div>
+
+      <div class="second-set animate__animated animate__pulse">
+        <img src="./my-portfolio/assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="./my-portfolio/assets/icons/icons8-javascript-logo.svg" alt="" loading="lazy"
+          class="icon icon-card" />
+        
+        <img src="./my-portfolio/assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="./my-portfolio/assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" />
+      </div>
+    </div>
+  </section>
+  <!-- Projects section -->
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Some of my Recent Projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img src="./my-portfolio/assets/images/server.png"
+          alt="Codecademy project" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Project 01</h3>
+        <p class="project-details">
+        <h4 class="project-subtitle">Begineer Level</h4>
+        Successfully completed the module on HTML/CSS along with a Capstone project colmar Academy.
+        </p>
+        <a href="../colmarAcademy/colmer.html" target="_blank" class="project-link">Check it Out</a>
+      </div>
+     
+      <div class="project-container project-card">
+        <img src="./my-portfolio/assets/images/server.png"
+          alt="greeny-earth" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Project 02</h3>
+        <p class="project-details">
+        <h4 class="project-subtitle">Intermidiate level</h4>
+        Applied further more concepts of HTML/CSS to build a good looking landing page.
+        </p>
+        <a href="../practiceProject/index.html" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="./my-portfolio/assets/images/server.png"
+          alt="netflic-clone" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Project 03</h3>
+        <p class="project-details">
+        <h4 class="project-subtitle">Advanced Level</h4>
+        Successfully completed the module on JavaScript along with a project named Chore Door from Codecademy.
+        </p>
+        <a href="../ChoreDoor_js_project/index.html" target="_blank" class="project-link">Check it Out</a>
+      </div>
+    </div>
+  </section>
+  <!-- Contact section -->
+  <section class="contact" id="contact">
+    <h2>Get In Touch With Me</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="https://formspree.io/f/xyylngw" method="POST">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+              class="input-field" required></textarea>
+          </div>
+          <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Social accounts - Fixed to the right -->
+  <div class="socials">
+    <a href="https://twitter.com/Mdyaseen95" target="_blank"><img src="./my-portfolio/assets/icons/icons8-twitter.gif"
+        alt="Twitter" loading="lazy" class="socicon" /></a>
+    <a href="https://www.instagram.com/muhammad_yaseen95/" target="_blank"><img
+        src="./my-portfolio/assets/icons/icons8-instagram.gif" alt="Instagram" loading="lazy" class="socicon" /></a>
+    <a href="https://www.linkedin.com/in/mohammad-yaseen-8054b0164/" target="_blank"><img
+        src="./my-portfolio/assets/icons/372102050_LINKEDIN_ICON_TRANSPARENT_400.gif" alt="Linkedin" loading="lazy"
+        class="socicon" /></a>
+    <a href="https://github.com/mdyaseen95/" target="_blank"><img src="./my-portfolio/assets/icons/icons8-github.gif"
+        alt="Github" class="socicon" /></a>
+  </div>
+  <!-- Scroll to top -->
+
+  <!-- Footer section -->
+  <footer>
+    <div className="header_buttons" class="resume">
+      <a href="./my-portfolio/assets/images/resume (1).pdf" className="btn btn-outline" download class="btn btn-outline btn-primary">Download Resume
+      </a>
+  </div>
+
+    <p class="copy">&copy; Copyright 2021</p>
+    <p class="copy">
+      Built with &#x2661; by
+      <a href="https://twitter.com/Mdyaseen95" target="_blank">Mohammad Yaseen</a>
+    </p>
+  </footer>
+
+
+
+
+  <!-- Website scripts -->
+  <script src="./my-portfolio/assets/js/app.js"></script>
+
+  <!-- Ion icons scripts -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

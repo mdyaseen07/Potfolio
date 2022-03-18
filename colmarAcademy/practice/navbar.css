@@ -1,0 +1,33 @@
+nav {
+
+    background-color: antiquewhite;
+    width:auto;
+    height: 150px;
+}
+
+ul {
+    padding: 30px;
+    margin: 15px;
+    border: solid 2px black;
+    
+}
+
+li {
+    display: inline;
+    padding: 100px;
+    margin: 20px;
+    width: 30px;
+    
+
+}
+
+li a:hover {
+    
+    background-color: aquamarine;
+    transition-property: background-color;
+    transition-delay: 5s;
+}
+
+a {
+    background-color: azure;
+}
